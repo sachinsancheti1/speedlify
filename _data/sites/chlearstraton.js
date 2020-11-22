@@ -1,6 +1,6 @@
 module.exports = {
 	name: "Chlear Straton Group", // optional, falls back to object key
-	description: "The default sites that get tested",
+	description: "Chlear Straton Group",
 	options: {
 		frequency: 60 * 24, // (in minutes), 24 hours
 	},
