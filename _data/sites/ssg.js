@@ -1,9 +1,8 @@
 module.exports = {
-	name: "SSG", // optional, falls back to object key
-	description: "Static Site Generator web sites",
+	name: "Vitrag Website", // optional, falls back to object key
+	description: "Vitrag Website",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
-	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 	options: {
 		frequency: 60 * 23, // 24 hours
 		// Use "run" if the sites don’t share assets on the same origin
@@ -13,17 +12,11 @@ module.exports = {
 		freshChrome: "run"
 	},
 	urls: [
-		"https://www.11ty.dev/",
-		"https://www.gatsbyjs.com/",
-		"https://gohugo.io/",
-		"https://nextjs.org/",
-		"https://nuxtjs.org/",
-		"https://gridsome.org/",
-		"https://vuepress.vuejs.org/",
-		"https://v2.docusaurus.io/",
-		"https://docsify.js.org/",
-		"https://jekyllrb.com/",
-		"https://hexo.io/",
-		"https://sapper.svelte.dev/",
+		"https://vitraggroup.com/",
+		"https://vitraggroup.com/houses-for-sale/",
+		"https://vitraggroup.com/gated-community/",
+		"https://vitraggroup.com/plots-for-sale/",
+		"https://vitraggroup.com/about/",
+		"https://vitraggroup.com/tags/"
 	]
 };
